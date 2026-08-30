@@ -1,0 +1,81 @@
+export const ROUTES = [
+  { path: '/', file: 'Home.jsx', dir: 'src/pages' },
+  { path: '/about', file: 'About.jsx', dir: 'src/pages' },
+  { path: '/skills', file: 'SkillsPage.jsx', dir: 'src/pages' },
+  { path: '/projects', file: 'ProjectsPage.jsx', dir: 'src/pages' },
+  { path: '/journey', file: 'JourneyPage.jsx', dir: 'src/pages' },
+  { path: '/contact', file: 'ContactPage.jsx', dir: 'src/pages' },
+];
+
+export const FILE_TREE = {
+  name: 'portfolio',
+  children: [
+    {
+      name: 'src',
+      type: 'folder',
+      open: true,
+      children: [
+        {
+          name: 'components',
+          type: 'folder',
+          open: false,
+          children: [
+            { name: 'Contact.jsx', type: 'file' },
+            { name: 'Journey.jsx', type: 'file' },
+            { name: 'Laptop.jsx', type: 'file' },
+            { name: 'PageShell.jsx', type: 'file' },
+            { name: 'Projects.jsx', type: 'file' },
+            { name: 'RevealText.jsx', type: 'file' },
+            { name: 'SectionLabel.jsx', type: 'file' },
+            { name: 'Skills.jsx', type: 'file' },
+          ],
+        },
+        {
+          name: 'ide',
+          type: 'folder',
+          open: false,
+          children: [
+            { name: 'ActivityBar.jsx', type: 'file' },
+            { name: 'EditorHeader.jsx', type: 'file' },
+            { name: 'FileIcon.jsx', type: 'file' },
+            { name: 'FileTree.jsx', type: 'file' },
+            { name: 'IDEContext.jsx', type: 'file' },
+            { name: 'MenuBar.jsx', type: 'file' },
+            { name: 'MobileBar.jsx', type: 'file' },
+            { name: 'MobileDrawer.jsx', type: 'file' },
+            { name: 'Sidebar.jsx', type: 'file' },
+            { name: 'StatusBar.jsx', type: 'file' },
+            { name: 'tree.js', type: 'file' },
+          ],
+        },
+        {
+          name: 'lib',
+          type: 'folder',
+          open: false,
+          children: [{ name: 'useLenis.js', type: 'file' }],
+        },
+        {
+          name: 'pages',
+          type: 'folder',
+          open: true,
+          children: [
+            { name: 'About.jsx', type: 'file', path: '/about' },
+            { name: 'ContactPage.jsx', type: 'file', path: '/contact' },
+            { name: 'Home.jsx', type: 'file', path: '/' },
+            { name: 'JourneyPage.jsx', type: 'file', path: '/journey' },
+            { name: 'ProjectsPage.jsx', type: 'file', path: '/projects' },
+            { name: 'SkillsPage.jsx', type: 'file', path: '/skills' },
+          ],
+        },
+        { name: 'App.jsx', type: 'file' },
+        { name: 'index.css', type: 'file' },
+        { name: 'main.jsx', type: 'file' },
+      ],
+    },
+    { name: 'index.html', type: 'file' },
+    { name: 'package.json', type: 'file' },
+    { name: 'README.md', type: 'file' },
+    { name: 'tailwind.config.js', type: 'file' },
+    { name: 'vite.config.js', type: 'file' },
+  ],
+};
