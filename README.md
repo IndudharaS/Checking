@@ -41,3 +41,4 @@ Pages, etc.
 - [src/components/PageShell.jsx](src/components/PageShell.jsx) — shared page enter/exit transition
 - [src/lib/useLenis.js](src/lib/useLenis.js) — Lenis + GSAP ScrollTrigger sync
 - [tailwind.config.js](tailwind.config.js) — color tokens (`accent` = emerald, `accent2` = teal)
+Simply manually chcking which github account it is. 
